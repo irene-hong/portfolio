@@ -831,12 +831,12 @@ about-info-name {
     }
 
     .edu-title {
-        font-size: var(--smaller-font-size);
+        font-size: var(--h3-font-size);
     }
 
     .edu-subtitle {
         max-width: 90%;
-        font-size: var(--smaller-font-size);
+        font-size: var(--h3-font-size);
         /* word-break: break-all; */
     }
 
