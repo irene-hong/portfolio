@@ -858,7 +858,7 @@ about-info-name {
     }
 
     .skill-title {
-        font-size: var(--normal-h3-size);
+        font-size: var(--h3-font-size);
     }
 
     .skill-description {
