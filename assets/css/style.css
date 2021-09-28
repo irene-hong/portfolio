@@ -861,22 +861,27 @@ about-info-name {
         font-size: var(--h3-font-size);
     }
 
-    .skill-description {
-        font-size: var(--normal-font-size);
-    }
+
 
     .skill-icon {
         font-size: 1.5rem;
     }
 
     .skill-description {
-        font-size: var(--smaller-font-size);
+        font-size: var(--normal-font-size);
         padding-left: 0;
     }
 
     .contact-container {
         column-gap: 1rem;
         row-gap: 1rem;
+        margin-right: var(--mb-2);
+        margin-left: var(--mb-2);
+        ;
+    }
+
+    .contact-subtitle {
+        font-size: var(--normal-font-size);
     }
 
 
