@@ -794,6 +794,7 @@ about-info-name {
 
     .section-subtitle {
         margin-bottom: var(--mb-2);
+        font-size: var(--h3-font-size);
     }
 
     .nav-menu {
@@ -831,13 +832,14 @@ about-info-name {
     }
 
     .edu-title {
-        font-size: var(--h3-font-size);
+        word-wrap: initial;
+        font-size: var(--normal-font-size);
     }
 
     .edu-subtitle {
         max-width: 90%;
-        font-size: var(--h3-font-size);
-        /* word-break: break-all; */
+        font-size: var(--normal-font-size);
+        word-break: initial;
     }
 
 
@@ -846,11 +848,20 @@ about-info-name {
         font-size: var(--normal-font-size);
     }
 
+    .skills-container {
+        margin-left: var(--mb-2);
+        margin-right: var(--mb-2);
+    }
+
     .skill-header {
         margin-bottom: var(--mb-0-25);
     }
 
     .skill-title {
+        font-size: var(--normal-h3-size);
+    }
+
+    .skill-description {
         font-size: var(--normal-font-size);
     }
 
@@ -987,9 +998,8 @@ about-info-name {
         justify-content: center;
     }
 
-    .courses {
-        grid-template-columns: repeat(2, 1fr);
-    }
+
+
 
     .project-img {
         width: 320px;
@@ -1066,6 +1076,10 @@ about-info-name {
 
     .edu-data {
         column-gap: 3rem;
+    }
+
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .project-content {
