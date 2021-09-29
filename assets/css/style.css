@@ -62,13 +62,7 @@
     }
 }
 
-@font-face {
-    font-family: 'iconfont';
-    /* Project id 2834729 */
-    src: url('//at.alicdn.com/t/font_2834729_ysy2yv861f.woff2?t=1632621384162') format('woff2'),
-        url('//at.alicdn.com/t/font_2834729_ysy2yv861f.woff?t=1632621384162') format('woff'),
-        url('//at.alicdn.com/t/font_2834729_ysy2yv861f.ttf?t=1632621384162') format('truetype');
-}
+/*  */
 
 /* body {
     color: hsl(22, 20%, 12%)
